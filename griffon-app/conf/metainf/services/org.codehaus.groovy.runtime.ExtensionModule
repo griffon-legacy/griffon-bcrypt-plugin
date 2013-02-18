@@ -1,0 +1,4 @@
+moduleName=griffon-bcrypt
+moduleVersion=0.1
+extensionClasses=griffon.plugins.bcrypt.BCryptExtension
+staticExtensionClasses=
