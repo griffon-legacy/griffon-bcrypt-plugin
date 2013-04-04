@@ -16,6 +16,9 @@
 
 package griffon.plugins.bcrypt
 
+/**
+ * @author Andres Almiray
+ */
 class BcryptService {
     String hashPassword(String pass) {
         return BCrypt.hashpw(pass, BCrypt.gensalt())

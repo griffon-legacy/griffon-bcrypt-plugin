@@ -18,7 +18,7 @@
  * @author Andres Almiray
  */
 class BcryptGriffonPlugin {
-    String version = '0.1'
+    String version = '0.1.1'
     // the version or versions of Griffon the plugin is designed for
     String griffonVersion = '1.2.0 > *'
     // the other plugins this plugin depends on
@@ -57,7 +57,7 @@ Salt + MD5 or SHA hashing is typically not secure enough. See [here][2] for more
 details.
 
 Usage
-----
+-----
 
 You can either grab a reference to `BcryptService` or use the enhanced methods on
 a String, like this
@@ -75,8 +75,8 @@ a String, like this
 
 The BCrypt module extension exposes the following methods on a String
 
- * encodeAsString()
- * encodeAsString(int salt)
+ * encodeAsBcrypt()
+ * encodeAsBcrypt(int salt)
 
 [1]: http://grails.org/plugin/bcrypt
 [2]: http://codahale.com/how-to-safely-store-a-password
